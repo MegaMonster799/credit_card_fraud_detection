@@ -16,6 +16,25 @@ The study found that **XGBoost** significantly outperformed the Artificial Neura
 | ANN | 64.39% | 67.82% | 99.11% |
 
 **Key Insight:** SHAP analysis revealed that `device_trust_score` and `transaction_velocity` are the most significant behavioral predictors of fraud, while `cardholder_age` had negligible impact.
+## 📈 Technical Analysis & Interpretability
+
+While the formal JHSS submission is text-only per journal guidelines, the key technical visualizations below demonstrate the data distribution, feature relationships, and model logic.
+
+### Exploratory Data Analysis
+![EDA](visuals/exploratory_data_analysis.png)
+*Figure 1: Highlighting the severe 1.51% class imbalance and behavioral shifts in device trust and transaction velocity.*
+
+### Feature Correlation
+![Heatmap](visuals/correlation_matrix.png)
+*Figure 2: Pearson correlation matrix showing the relationship between behavioral features and fraud status.*
+
+### Model Performance (Confusion Matrices)
+![Confusion Matrices](visuals/confusion_matrices.png)
+*Figure 3: Side-by-side comparison showing XGBoost's superior ability to minimize false negatives compared to Logistic Regression and ANNs.*
+
+### Explainable AI (SHAP Analysis)
+![SHAP](visuals/SHAP_analysis.png)
+*Figure 4: SHAP summary plots proving that lower device trust scores are the primary global driver for fraud identification.*
 
 ## 🛠️ Technical Implementation
 *   **Imbalance Handling:** Utilized **SMOTE** (Synthetic Minority Over-sampling Technique) to address the severe class imbalance prior to training.
