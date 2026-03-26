@@ -2,6 +2,7 @@
 
 **Author:** Rohan Srikanth (Denmark High School)  
 **Research Mentor:** Dr. Ganesh Mani (Carnegie Mellon University)
+
 **Link to Paper:** [https://docs.google.com/document/d/1zwgRQQn8sjZ9emAsP0ypK4n7t8QUdwY3NylmEa3mQt0/edit?tab=t.0#heading=h.26msnqxudzue](url)
 
 **Author:** Rohan Srikanth (Denmark High School)  
