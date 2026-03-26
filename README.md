@@ -3,9 +3,6 @@
 **Author:** Rohan Srikanth (Denmark High School)  
 **Research Mentor:** Dr. Ganesh Mani (Carnegie Mellon University)
 
-**Author:** Rohan Srikanth (Denmark High School)  
-**Research Mentor:** Dr. Ganesh Mani (Carnegie Mellon University)
-
 This repository contains the implementation of my research paper on identifying fraudulent transactions in highly imbalanced datasets (1.51% fraud rate). This study evaluates the trade-offs between linear, ensemble, and neural models, with a focus on **explainability (XAI)** and **class imbalance handling**.
 
 ## 📊 Key Research Findings
